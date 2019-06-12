@@ -4882,7 +4882,7 @@ img {
 				    	var picurl = "https://en.wikipedia.org/w/api.php?action=query&titles="+imname+"&prop=imageinfo&iiprop=url"
 				    	console.log(proxyUrl+picurl);
 				    }
-				    return fetch(proxyUrl+picurl, {
+				    return fetch(picurl, {
 						  mode: 'cors'
 						})
 				})
