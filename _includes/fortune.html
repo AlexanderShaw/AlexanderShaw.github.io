@@ -4866,9 +4866,9 @@ img {
 
 				var url = "https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts|images&exintro&explaintext&redirects=1&titles="+todaysbird;
 				var birdurl="";
-				var proxyUrl = 'https://cors-anywhere.herokuapp.com/';
+				var proxyUrl = 'http://cors.io/';
 
-				  fetch(url, {
+				  fetch(proxyUrl+url, {
   mode: 'cors'  
 })
 			    .then(function(response) {
@@ -4879,10 +4879,10 @@ img {
 				    	footer.textContent = myJson.query.pages[x].extract;
 				    	var imname = myJson.query.pages[x].images["0"].title;
 				    	console.log(imname);
-				    	var picurl = "https://en.wikipedia.org/w/api.php?action=query&titles="+imname+"&prop=imageinfo&iiprop=url"
+				    	var picurl = "https://en.wikipedia.org/w/api.php?action=query&titles="+imname+"&prop=imageinfo&iiprop=url";
 				    	console.log(proxyUrl+picurl);
 				    }
-				    return fetch(picurl, {
+				    return fetch(proxyUrl+picurl, {
 						  mode: 'cors'
 						})
 				})
