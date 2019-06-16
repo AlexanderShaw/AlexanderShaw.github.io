@@ -4885,7 +4885,7 @@ img {
 				    	footer.textContent = myJson.query.pages[x].extract;
 				    	var imname = myJson.query.pages[x].images["0"].title;
 				    	console.log(imname);
-				    	var picurl = "https://en.wikipedia.org/w/api.php?action=query&origin=*&titles="+imname+"&prop=imageinfo&iiprop=url";
+				    	var picurl = "https://en.wikipedia.org/w/api.php?action=query&format=json&origin=*&titles="+imname+"&prop=imageinfo&iiprop=url";
 				    	console.log(picurl);
 				    }
 				    return fetch(picurl, {
