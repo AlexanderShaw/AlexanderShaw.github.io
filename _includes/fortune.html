@@ -4868,9 +4868,10 @@ img {
 				var birdurl="";
 				var proxyUrl = 'https://cors.io/?';
 
-				  fetch(proxyUrl+url, {
-  mode: 'cors'  
-})
+				  fetch(url, {
+				  mode: 'cors',
+					  origin: "https://alexandershaw.github.io/"
+					})
 			    .then(function(response) {
 				    return response.json();
 				  })
@@ -4880,10 +4881,11 @@ img {
 				    	var imname = myJson.query.pages[x].images["0"].title;
 				    	console.log(imname);
 				    	var picurl = "https://en.wikipedia.org/w/api.php?action=query&titles="+imname+"&prop=imageinfo&iiprop=url";
-				    	console.log(proxyUrl+picurl);
+				    	console.log(picurl);
 				    }
-				    return fetch(proxyUrl+picurl, {
-						  mode: 'cors'
+				    return fetch(picurl, {
+						  mode: 'cors',
+					    origin: "https://alexandershaw.github.io/"
 						})
 				})
 			    .then(function(response) {
