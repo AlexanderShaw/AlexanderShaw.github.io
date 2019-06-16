@@ -4897,8 +4897,8 @@ img {
         }
 						)
 				})
-			    .then(function(response) {
-				    return response.json();
+			    .then(function(newresponse) {
+				    return newresponse.json();
 				  })
 				  .then(function(newJson) {
 				  	for (x in newJson.query.pages) {
