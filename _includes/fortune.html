@@ -12,7 +12,7 @@ img {
 				 <hed>
 
 				 </hed>
-<img src="https://www.w3schools.com/images/lamp.jpg" alt="Lamp">
+<img src="https://www.w3schools.com/images/lamp.jpg" id="Bird">
 				 <foot>
 
 				 </foot>
@@ -4901,6 +4901,7 @@ img {
 				  .then(function(newJson) {
 				  	for (x in newJson.query.pages) {
 						for (z in x.imageinfo) {
+							document.getElementById('Bird').src=z.url;
 							console.log(z.url);
 						};
 					}
