@@ -4901,7 +4901,9 @@ img {
 				    return response.json();
 				  })
 				  .then(function(myJson) {
-				  	console.log(myJson);
+				  	for (x in myJson.query.pages) {
+						console.log(x.imageinfo.url);
+					}
 				    return myJson
 				  });
 
