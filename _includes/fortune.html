@@ -4884,9 +4884,7 @@ img {
 				    for (x in myJson.query.pages) {
 				    	footer.textContent = myJson.query.pages[x].extract;
 				    	var imname = myJson.query.pages[x].images["0"].title;
-				    	console.log(imname);
 				    	var picurl = "https://en.wikipedia.org/w/api.php?action=query&format=json&origin=*&titles="+imname+"&prop=imageinfo&iiprop=url";
-				    	console.log(picurl);
 				    }
 				    return fetch(picurl, {
 					    method: "GET",
@@ -4904,7 +4902,7 @@ img {
 				  	for (x in newJson.query.pages) {
 						for (z in x.imageinfo) {
 							console.log(z.url);
-						}
+						};
 					}
 				    return newJson
 				  });
