@@ -4869,7 +4869,7 @@ img {
 				var proxyUrl = 'https://cors.io/?';
 
 				  fetch(url, {
-				  mode: 'cors',
+				  mode: 'no-cors',
 					  headers: {
 						  'Content-Type': 'application/json',
 					  'origin' : 'https://alexandershaw.github.io/'
@@ -4888,7 +4888,7 @@ img {
 				    	console.log(picurl);
 				    }
 				    return fetch(picurl, {
-						  mode: 'cors',
+						  mode: 'no-cors',
 					    headers: {
 						   'Content-Type': 'application/json',
 					  'origin' : 'https://alexandershaw.github.io/'
