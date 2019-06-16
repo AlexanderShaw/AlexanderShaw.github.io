@@ -4869,10 +4869,7 @@ img {
 				var proxyUrl = 'https://cors.io/?';
 
 				  fetch(url, {
-				  mode: 'cors',
-					  headers: {
-						  'Content-Type': 'application/json',
-					  'origin' : '*'
+					method: "GET"
         }
 
 					})
@@ -4888,10 +4885,7 @@ img {
 				    	console.log(picurl);
 				    }
 				    return fetch(picurl, {
-						  mode: 'cors',
-					    headers: {
-						   'Content-Type': 'application/json',
-					  'origin' : '*'
+					    method: "GET"
         }
 						})
 				})
