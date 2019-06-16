@@ -4870,7 +4870,10 @@ img {
 
 				  fetch(url, {
 				  mode: 'cors',
-					  origin: "https://alexandershaw.github.io/"
+					  headers: {
+					  'origin' : 'https://alexandershaw.github.io/'
+        }
+
 					})
 			    .then(function(response) {
 				    return response.json();
@@ -4885,7 +4888,9 @@ img {
 				    }
 				    return fetch(picurl, {
 						  mode: 'cors',
-					    origin: "https://alexandershaw.github.io/"
+					    headers: {
+					  'origin' : 'https://alexandershaw.github.io/'
+        }
 						})
 				})
 			    .then(function(response) {
