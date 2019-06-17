@@ -4889,7 +4889,7 @@ img {
 				  })
 				  .then(function(myJson) {
 				    for (x in myJson.query.pages) {
-				    	footer.textContent = myJson.query.pages[x].extract+" "+<a id="birdurl" href="https://en.wikipedia.org/wiki/"+todaysbird">Wikipedia</a>;
+				    	footer.textContent = myJson.query.pages[x].extract;
 				    	var imname = myJson.query.pages[x].images["0"].title;
 				    	var picurl = "https://en.wikipedia.org/w/api.php?action=query&format=json&origin=*&titles="+imname+"&prop=imageinfo&iiprop=url";
 				    }
