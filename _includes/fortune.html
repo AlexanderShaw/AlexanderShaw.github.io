@@ -4900,9 +4900,9 @@ img {
 				  })
 				  .then(function(newJson) {
 				  	for (x in newJson.query.pages) {
-						for (z in x.imageinfo) {
-							document.getElementById('Bird').src="https://upload.wikimedia.org/wikipedia/commons/0/04/Halcyon_badia_PLoS.jpg";
-							console.log(z.url);
+						for (z in newJson.query.pages[x].imageinfo) {
+							document.getElementById('Bird').src=newJson.query.pages[x].imageinfo[z].url;
+							console.log(newJson.query.pages[x].imageinfo[z].url);
 						};
 					}
 				    return newJson
