@@ -2,8 +2,12 @@
 layout: post
 title:  "Ozymandias"
 date:   2019-06-09 19:48:12
+author: alexander
 ---
-## Ozymandias - Percy Bysshe Shelley
+
+Here is an example poem to demonstrate the site's layout:
+
+## Ozymandias 
 
 I met a traveller from an antique land,  
 Who said—“Two vast and trunkless legs of stone  
@@ -19,3 +23,5 @@ Look on my Works, ye Mighty, and despair!
 Nothing beside remains. Round the decay  
 Of that colossal Wreck, boundless and bare  
 The lone and level sands stretch far away.”  
+
+### Percy Bysshe Shelley
