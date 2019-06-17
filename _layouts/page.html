@@ -11,5 +11,7 @@ layout: default
 			{% include comment.html %}
 		{% endif %}
     	</div>
-    	{% include footer.html %}
+	{% if page.title = 'About' %}
+    		{% include footer.html %}
+	{% endif %}
 </article>
