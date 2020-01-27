@@ -1,6 +1,6 @@
 ---
 short_name: alexander
-name: Alexander Shaw
+name: Alexander F Shaw
 ---
-Alexander is tall and manages the blog.  
+Alexander is tall and manages the website.  
  <br/>
