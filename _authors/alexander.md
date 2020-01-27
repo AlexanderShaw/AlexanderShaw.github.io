@@ -1,6 +1,6 @@
 ---
 short_name: alexander
-returntoauthor: true
+returntoauthor: 'true'
 name: Alexander F Shaw
 ---
 Alexander is tall and manages the website.  
