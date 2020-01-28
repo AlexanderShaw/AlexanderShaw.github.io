@@ -2,15 +2,15 @@
         <h1>{{ site.description }}</h1>
 	{% if page.title == 'Home' %}
     <p>
-        <a href="{{ "/" | prepend: site.baseurl }}">Home</a><span class="u-separate"></span><span class="u-separate"><a href="{{ "/authors/" | prepend: site.baseurl }}">Authors</a></span>  <a href="{{ "/about/" | prepend: site.baseurl }}">About</a>
+        <a href="{{ "/authors/" | prepend: site.baseurl }}">Authors</a></span>  <a href="{{ "/about/" | prepend: site.baseurl }}">About</a>
     </p>
 	{% else if page.returntoauthor == 'true' %}
     <p>
-        <a href="{{ "/authors/" | prepend: site.baseurl }}">&lt;&ndash;&ndash; Back</a>
+        <a href="{{ "/authors/" | prepend: site.baseurl }}">&lt;&ndash;&ndash; Authors</a>
     </p>
 	{% else %}
     <p>
-        <a href="{{ "/" | prepend: site.baseurl }}">&lt;&ndash;&ndash; Back</a>
+        <a href="{{ "/" | prepend: site.baseurl }}">&lt;&ndash;&ndash; Home</a>
     </p>
 	{% endif %}
 </header>
