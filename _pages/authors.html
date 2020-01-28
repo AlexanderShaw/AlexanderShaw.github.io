@@ -3,11 +3,10 @@ layout: page
 title: Authors
 permalink: /authors/
 ---
-<h1>Authors</h1>
+<h2>Authors</h2>
 
 
   {% for author in site.authors %}
-    <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
-    <br>
+    <h3><a href="{{ author.url }}">{{ author.name }}</a></h3>
   {% endfor %}
 
