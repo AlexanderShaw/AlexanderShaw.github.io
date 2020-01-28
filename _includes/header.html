@@ -4,7 +4,7 @@
     <p>
         <span class="u-separate"><a href="{{ "/authors/" | prepend: site.baseurl }}">Authors</a></span>  <a href="{{ "/about/" | prepend: site.baseurl }}">About</a>
     </p>
-	{% elsif page.returntoauthor == 'true' %}
+	{% elsif page.layout == 'author' %}
     <p>
         <a href="{{ "/authors/" | prepend: site.baseurl }}">&lt;&ndash;&ndash; Authors</a>
     </p>
