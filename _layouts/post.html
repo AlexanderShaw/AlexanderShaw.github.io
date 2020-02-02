@@ -13,7 +13,7 @@ layout: page
     <footer class="c-article__footer">
 	  {% assign auths = site.authors | where: 'short_name', page.author %}
 	    {% for auth in auths %}
-	  <p class="c-article__author" align="right">{{ auth.name }}</p>
+	  <p class="c-article__author" align="right"><a href="{{ auth.url }}">{{ auth.name }}</a></p>
 	    {% endfor %}
     </footer>
 </article>
