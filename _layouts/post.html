@@ -12,7 +12,7 @@ layout: page
     </div>
     <footer class="c-article__footer">
 	    {% assign auth = site.authors.x | where: 'author', x.short_name %}
-	  <p class="c-article__author" align="right">{{ site.authors.auth.name }}</p>
+	  <p class="c-article__author" align="right">{{ auth.name }}</p>
 	
     </footer>
 </article>
