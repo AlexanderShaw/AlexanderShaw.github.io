@@ -11,7 +11,7 @@ layout: page
 		{% include comment.html %}
     </div>
     <footer class="c-article__footer">
-	    {% assign auth = site.authors.x | where: 'author', x.short_name %}
+	    {% assign auth = site.authors.x | where: 'page.author', x.short_name %}
 	  <p class="c-article__author" align="right">{{ auth.name }}</p>
 	
     </footer>
