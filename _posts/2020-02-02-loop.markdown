@@ -5,8 +5,6 @@ date:   2020-02-02 11:31:12
 author: alexander
 ---
 
-## Loop
-
 &mdash; I remember listening to my mom   
 hoot into the woods at night   
 and hoots would return back   
