@@ -1,6 +1,16 @@
 /**
  * Site header
  */
+#logo_container {
+    position: absolute;
+    left: 50%;
+}
+
+#birdlogo {
+    float: right;
+}
+    
+
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
