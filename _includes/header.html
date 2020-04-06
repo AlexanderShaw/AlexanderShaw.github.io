@@ -1,5 +1,6 @@
 <header class="c-page__header">
-        <h1>{{ site.description }} <img id="birdlogo" src="https://raw.githubusercontent.com/AlexanderShaw/AlexanderShaw.github.io/master/_includes/birdcallslogo.png" alt="logo"> </h1> 
+	<div id="logo_container">  <img id="birdlogo" src="https://raw.githubusercontent.com/AlexanderShaw/AlexanderShaw.github.io/master/_includes/birdcallslogo.png" alt="logo">  </div>
+        <h1>{{ site.description }}</h1> 
 	{% if page.title == 'Home' %}
     <p>
         <span class="u-separate"><a href="{{ "/authors/" | prepend: site.baseurl }}">Authors</a></span>  <a href="{{ "/about/" | prepend: site.baseurl }}">About</a>
