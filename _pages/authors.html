@@ -7,6 +7,8 @@ permalink: /authors/
 
 
   {% for author in site.authors %}
-    <h3 style="margin-left: 20px"><a href="{{ author.url }}">{{ author.name }}</a></h3>
+    <div style="padding-top: 2.5rem; padding-bottom: 2.5rem; border-top: 1px solid #EFF1F3; display:flex; justify-content:space-between" >;
+    <h3 ><a href="{{ author.url }}">{{ author.name }}</a></h3> <p > {{ author.description }} </p>
+</div>
   {% endfor %}
 
