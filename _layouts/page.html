@@ -5,15 +5,13 @@ layout: default
 <div class="c-page">
 		<article class="c-article">
    	 	{% include header.html %}
-		
+		{% include footer.html %}
     	<div class="c-article__main">
         {{ content }}
 		{% if page.title != 'Home' %}
 			{% include comment.html %}
 		{% endif %}
     	</div>
-	{% if page.title == 'About' %}
-    		{% include footer.html %}
-	{% endif %}
+
 
 </article>
