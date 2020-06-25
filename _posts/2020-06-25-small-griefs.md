@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Small Griefs”
+title: "Small Griefs"
 date: 2020-06-24
 author: olivia
 ---
