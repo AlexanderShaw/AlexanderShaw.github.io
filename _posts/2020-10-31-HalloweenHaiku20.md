@@ -20,7 +20,7 @@ Seeps yellow above the wet
 
 November-dazed ground
 </p>
-<p style="text-align: center;">
+<p style="text-align: right;">
 -Olivia
 </p>
 <p style="text-align: center;">
@@ -30,6 +30,6 @@ effervescence on gooseflesh.
 
 Skeletons clack by.
 </p>
-<p style="text-align: center;">
+<p style="text-align: right;">
 -Alex
 </p>
