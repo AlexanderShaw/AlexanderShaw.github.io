@@ -5,30 +5,30 @@ date:   2020-10-31 11:31:12
 ---
 
 <p style="text-align: center;">
-a bright homecoming   
+a bright homecoming    <br/>
 
-no more; the gap-toothed smile sags   
+no more; the gap-toothed smile sags   <br/>
 
-as the pumpkin rots   
+as the pumpkin rots   <br/>
 </p>
 <p style="text-align: right;">
 -Missy
 <p style="text-align: center;">
-At noon&#39;s threshold light   
+At noon&#39;s threshold light   <br/>
 
-Seeps yellow above the wet   
+Seeps yellow above the wet   <br/>
 
-November-dazed ground   
+November-dazed ground   <br/>
 </p>
 <p style="text-align: right;">
 -Olivia
 </p>
 <p style="text-align: center;">
-Ice wind and star fire,   
+Ice wind and star fire,   <br/>
 
-effervescence on gooseflesh.   
+effervescence on gooseflesh.   <br/>
 
-Skeletons clack by.   
+Skeletons clack by.   <br/>
 </p>
 <p style="text-align: right;">
 -Alex
