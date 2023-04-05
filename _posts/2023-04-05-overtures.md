@@ -19,4 +19,4 @@ You cannot witness. Sound is relentless
 And will seek your song yet, by chance, recall  
 Mere bits of your effusive, true refrains,  
 Which played will perk my ear and I'll quiesce;  
-Might it be you? No. I hear sound in thrall.  
+Might it be you?... No. I hear sound in thrall.  
