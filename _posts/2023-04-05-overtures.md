@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Before you, overtures Accumulate"
+title:  "Before you, overtures accumulate"
 date:   2023-04-05 15:00:12
 author: alexander
 ---
