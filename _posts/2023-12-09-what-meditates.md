@@ -10,7 +10,7 @@ In lifting all to lightness,
 witness yourself lifted, too.  
 You are the buoyant souls  
   
-You air with felicity. All else would  
+you air with felicity. All else would  
 succumb to mass; in translation   
 between beings, what cannot  
 suffer asymmetry?  
