@@ -22,7 +22,7 @@ from the staining paradox of self-ablation.
 In every change, I would thoroughly bathe,  
   
 relinquishing the preparation of my grave.  
-It lies outside the boundary of my creation.  
+It is outside the boundary of my creation.  
 –Rinse me, so I may cleanly crave  
   
 to continue lying here, in your nave,  
