@@ -21,7 +21,7 @@ this wind, to work the cloth I've yet saved
 from the staining paradox of self-ablation.  
 In every change, I would thoroughly bathe,  
   
-relinquishing the preparation for my grave.  
+relinquishing the preparation of my grave.  
 It lies outside the boundary of my creation.  
 –Rinse me, so I may cleanly crave  
   
